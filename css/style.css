@@ -101,18 +101,28 @@ main{
     font-family: Inter;
     padding: 2.5rem 1rem;
     color: rgb(112, 112, 112);
+    border: 2px solid transparent;
 }
 .card:hover{
+    
+    color: rgba(255, 89, 89, 1);
     background-color: rgb(253, 231, 231);
     border: 2px solid rgba(255, 89, 89, 1);
     border-radius: 8px;
 }
 .others-amount>input{
-    width: 550px;
+    max-width: 500px;
     padding: 1.5rem;
     font-size: 1.5rem;
     text-align: center;
     border: none;
     border-bottom: 1px solid rgb(112, 112, 112);
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
 }
+input:focus{
+    outline: none;
+}
+/* this is input number box arrow hide */
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none; 
+  }

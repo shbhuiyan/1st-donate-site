@@ -15,4 +15,7 @@
     .banner-btn{
         margin-top: 1.25rem;
     }
+    .amount-card-container{
+        flex-direction: column;
+    }
   }
