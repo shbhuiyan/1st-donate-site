@@ -11,8 +11,23 @@ html{
 }
 
 /* Shared styles  */
+main{
+    max-width: 1200px;
+    margin: 4rem auto;
+    border: 2px solid red;
+}
 .flex{
     display: flex;
+}
+.title-container{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Inter;
 }
 .section-subtitle{
     color: rgb(112, 112, 112);
@@ -39,7 +54,7 @@ html{
 /* header section styles */
 .header{
     max-width: 1440px;
-    margin: 0 auto 4rem auto;
+    margin: 0 auto;
     border: 2px solid red;
     background-image: url(../images/Banner\ Bg.png);
     background-repeat: no-repeat;
@@ -67,4 +82,37 @@ html{
 }
 .banner-pic img{
     width: 100%;
+}
+
+/* Styles amount section */
+.amount-container{
+    text-align: center;
+}
+.amount-card-container{
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+.card{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Inter;
+    padding: 2.5rem 1rem;
+    color: rgb(112, 112, 112);
+}
+.card:hover{
+    background-color: rgb(253, 231, 231);
+    border: 2px solid rgba(255, 89, 89, 1);
+    border-radius: 8px;
+}
+.others-amount>input{
+    width: 550px;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    margin-bottom: 1rem; 
 }
