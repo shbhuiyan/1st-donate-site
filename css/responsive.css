@@ -1,0 +1,18 @@
+@media only screen and (max-width: 576px) {
+    .header{
+        background: none;
+        background-color: rgba(245, 201, 208, 0.441);
+    }
+    .banner{
+        flex-direction: column;
+        margin: 0%;
+        text-align: center;
+        background-image: url(../images/Banner\ Bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+    }
+    .banner-btn{
+        margin-top: 1.25rem;
+    }
+  }
